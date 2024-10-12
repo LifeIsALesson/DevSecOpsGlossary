@@ -1,0 +1,52 @@
+/* Custom lighter grey for disabled buttons */
+.btn-outline-secondary.disabled {
+    color: #cccccc !important; /* Lighter grey */
+    border-color: #cccccc !important; /* Lighter grey border */
+  }
+
+  /* Language buttons styling */
+  .language-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .language-links button {
+    margin-left: 10px;
+  }
+  
+  /* Glossary count badge styling */
+  .glossary-count {
+    margin-left: auto; /* Pushes the count to the right */
+  }
+
+  .badge-grey {
+    background-color: grey;
+    color: white;
+  }
+
+  /* Style the input container */
+  .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+
+  /* Style the input field */
+  .search-input {
+    width: 100%;
+    padding-right: 30px; /* Make space for the clear icon */
+  }
+
+  /* Clear icon */
+  .clear-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: grey;
+  }
+
+  .clear-icon:hover {
+    color: black;
+  }

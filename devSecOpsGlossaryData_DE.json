@@ -1,0 +1,461 @@
+[
+  {
+    "term": "CIA",
+    "description": "Confidentiality, Integrity, Availability. Die drei Hauptziele der Informationssicherheit: Vertraulichkeit, Integrität und Verfügbarkeit."
+  },
+
+  {
+    "term": "IAST",
+    "description": "Interactive Application Security Testing. Eine Sicherheitstesttechnik, die Aspekte von SAST und DAST kombiniert, indem sie mit der Anwendung interagiert, während sie läuft, und Schwachstellen im laufenden Code erkennt."
+  },
+  {
+    "term": "RASP",
+    "description": "Runtime Application Self-Protection. Eine Sicherheitstechnologie, die in eine Anwendung integriert ist und Sicherheitsbedrohungen in Echtzeit erkennt und blockiert, während die Anwendung läuft."
+  },
+  {
+    "term": "DevSecOps",
+    "description": "DevSecOps steht für Development, Security und Operations. Ein kultureller und technischer Ansatz, bei dem Sicherheitspraktiken in den DevOps-Prozess integriert werden, um sicherzustellen, dass die Sicherheit eine gemeinsame Verantwortung ist und in den gesamten Entwicklungszyklus eingebunden wird."
+  },
+  {
+    "term": "CI/CD",
+    "description": "Continuous Integration and Continuous Delivery. Prozesse in DevOps, die das kontinuierliche Bauen, Testen und Bereitstellen von Anwendungen automatisieren und so eine schnellere und zuverlässigere Softwarebereitstellung gewährleisten."
+  },
+  {
+    "term": "OWASP",
+    "description": "Open Web Application Security Project. Eine gemeinnützige Organisation, die sich der Verbesserung der Sicherheit von Software widmet und vor allem für die OWASP Top 10 bekannt ist, eine Liste der kritischsten Sicherheitsrisiken für Webanwendungen."
+  },
+  {
+    "term": "XSS",
+    "description": "Cross-Site Scripting. Eine Schwachstelle, die es einem Angreifer ermöglicht, bösartige Skripte in Webseiten einzuschleusen, die von anderen Benutzern angezeigt werden."
+  },
+  {
+    "term": "SQL Injection",
+    "description": "Eine Art von Angriff, bei dem ein Angreifer über eine Anwendung bösartigen Code in eine Datenbank einschleusen kann, um unbefugten Zugriff zu erhalten oder Änderungen vorzunehmen."
+  },
+  {
+    "term": "Zero Trust",
+    "description": "Ein Sicherheitsmodell, das davon ausgeht, dass kein Netzwerk, System oder Benutzer standardmäßig vertraut werden sollte. Es setzt strikte Zugriffskontrollen durch."
+  },
+  {
+    "term": "IAM",
+    "description": "Identity and Access Management. Ein Framework von Richtlinien und Technologien, das sicherstellt, dass die richtigen Personen den passenden Zugang zu Ressourcen haben."
+  },
+  {
+    "term": "SOC",
+    "description": "Security Operations Center. Eine zentrale Einheit, die sich mit Sicherheitsproblemen auf organisatorischer und technischer Ebene befasst, indem sie Sicherheitsvorfälle überwacht, analysiert und darauf reagiert."
+  },
+  {
+    "term": "SIEM",
+    "description": "Security Information and Event Management. Ein System, das sicherheitsrelevante Daten aus dem gesamten Netzwerk einer Organisation sammelt und analysiert, um Einblicke in Sicherheitsbedrohungen zu gewinnen."
+  },
+  {
+    "term": "Pen Testing",
+    "description": "Penetration Testing. Eine Methode zur Bewertung der Sicherheit einer Anwendung oder eines Netzwerks, bei der ein Angriff simuliert wird, um Schwachstellen aufzudecken."
+  },
+  {
+    "term": "Fuzz Testing",
+    "description": "Eine Testtechnik, bei der zufällige oder semi-zufällige Daten in ein Programm eingespeist werden, um Schwachstellen und unerwartetes Verhalten aufzudecken."
+  },
+  {
+    "term": "WAF",
+    "description": "Web Application Firewall. Ein Sicherheitssystem, das den ein- und ausgehenden Datenverkehr von Webanwendungen überwacht und kontrolliert, um bösartigen Verkehr zu blockieren."
+  },
+  {
+    "term": "Encryption",
+    "description": "Die Verschlüsselung von Daten, um sie vor unbefugtem Zugriff zu schützen. Häufig verwendete Verschlüsselungsmethoden sind AES, RSA und SHA."
+  },
+  {
+    "term": "TLS",
+    "description": "Transport Layer Security. Ein kryptografisches Protokoll, das sichere Kommunikation über ein Computernetzwerk ermöglicht."
+  },
+  {
+    "term": "Kubernetes",
+    "description": "Eine Open-Source-Plattform zur Verwaltung containerisierter Workloads und Dienste, die die Automatisierung von Bereitstellung, Skalierung und Verwaltung von Anwendungen ermöglicht."
+  },
+  {
+    "term": "SSH",
+    "description": "Secure Shell. Ein Protokoll zur sicheren Verbindung mit entfernten Systemen und zur Ausführung von Befehlen über eine verschlüsselte Verbindung."
+  },
+  {
+    "term": "DNS Spoofing",
+    "description": "Ein Angriff, bei dem ein Angreifer den DNS-Resolver-Prozess korrumpiert, um Benutzer auf bösartige Websites umzuleiten, anstatt auf die beabsichtigten Ziele."
+  },
+  {
+    "term": "MITM",
+    "description": "Man-In-The-Middle. Eine Angriffsart, bei der ein Angreifer heimlich die Kommunikation zwischen zwei Parteien abfängt und möglicherweise verändert, die glauben, direkt miteinander zu kommunizieren."
+  },
+  {
+    "term": "RCE",
+    "description": "Remote Code Execution. Eine Sicherheitslücke, die es einem Angreifer ermöglicht, beliebigen Code auf einem entfernten System oder einer Anwendung auszuführen."
+  },
+  {
+    "term": "APT",
+    "description": "Advanced Persistent Threat. Ein hochentwickelter, langfristiger Angriff, der in der Regel von Staaten oder hochorganisierten Gruppen durchgeführt wird, um sich in ein System oder eine Organisation einzuschleichen und diese auszuspionieren oder zu sabotieren."
+  },
+  {
+    "term": "Breach",
+    "description": "Ein Vorfall, bei dem Daten an Unbefugte weitergegeben werden, in der Regel durch das Ausnutzen einer Schwachstelle in einem System."
+  },
+  {
+    "term": "Least Privilege",
+    "description": "Ein Sicherheitsprinzip, das vorschreibt, dass Benutzern und Programmen nur der minimal erforderliche Zugriff gewährt wird, um ihre Aufgaben zu erfüllen."
+  },
+  {
+    "term": "DevOps",
+    "description": "Ein Satz von Praktiken, die Softwareentwicklung (Dev, kurz für Development) und IT-Betrieb (Ops, kurz für Operations) integrieren, um den Entwicklungszyklus zu verkürzen und kontinuierlich qualitativ hochwertige Software bereitzustellen."
+  },
+    {
+      "term": "SAST",
+      "description": "Static Application Security Testing. Eine Methode zur Überprüfung des Quellcodes oder der Binärdateien einer Anwendung auf Schwachstellen, ohne das Programm auszuführen."
+    },
+    {
+      "term": "DAST",
+      "description": "Dynamic Application Security Testing. Ein Prozess, bei dem eine laufende Anwendung (in der Regel webbasierte) auf Schwachstellen analysiert wird, die in Echtzeit ausgenutzt werden könnten."
+    },
+    {
+      "term": "Hashing",
+      "description": "Der Prozess der Umwandlung von Daten in eine Zeichenkette fester Länge, die typischerweise eine Digest darstellt, die die Daten repräsentiert."
+    },
+    {
+      "term": "SCA",
+      "description": "Software Composition Analysis. Der Prozess zur Identifizierung und Verwaltung von Open-Source-Komponenten in der Software."
+    },
+    {
+      "term": "SBoM",
+      "description": "Software-Stückliste. Eine Liste der Komponenten, die in der Softwareentwicklung verwendet werden, mit Schwerpunkt auf Lizenzierung und Sicherheit."
+    },
+    {
+      "term": "PenTest",
+      "description": "Penetrationstest. Ein simulierter Angriff auf ein System, um Sicherheitslücken zu finden."
+    },
+    {
+      "term": "DAC",
+      "description": "Discretionary Access Control. Ein Zugriffssteuerungsverfahren, bei dem der Dateninhaber entscheidet, wer auf bestimmte Ressourcen zugreifen darf."
+    },
+    {
+      "term": "MAC",
+      "description": "Mandatory Access Control. Ein Sicherheitsmodell, bei dem der Zugriff auf Ressourcen von einer zentralen Behörde basierend auf Richtlinien geregelt wird."
+    },
+    {
+      "term": "PBAC",
+      "description": "Policy-Based Access Control. Ein Sicherheitsmodell, bei dem Entscheidungen zum Zugriff auf Richtlinien basieren."
+    },
+    {
+      "term": "Threat Modeling",
+      "description": "Der Prozess der Identifizierung potenzieller Bedrohungen und Schwachstellen in einem System und der Gestaltung von Gegenmaßnahmen."
+    },
+    {
+      "term": "Red Teaming",
+      "description": "Eine Praxis, bei der eine Gruppe reale Angriffe auf ein System simuliert, um Schwachstellen zu identifizieren."
+    },
+    {
+      "term": "AppSec",
+      "description": "Anwendungssicherheit. Die Praxis, Anwendungen vor Schwachstellen und Sicherheitsbedrohungen zu schützen."
+    },
+    {
+      "term": "CyberSec",
+      "description": "Cybersicherheit. Der Schutz von Systemen, Netzwerken und Programmen vor digitalen Angriffen."
+    },
+    {
+      "term": "CVE",
+      "description": "Common Vulnerabilities and Exposures. Eine Liste öffentlich bekanntgegebener Informationssicherheitslücken."
+    },
+    {
+      "term": "MFA",
+      "description": "Multi-Faktor-Authentifizierung. Ein Sicherheitsprozess, der mehrere Formen der Verifizierung erfordert, um auf ein System zuzugreifen."
+    },
+    {
+      "term": "Authentication",
+      "description": "Der Prozess zur Überprüfung der Identität eines Benutzers oder Systems."
+    },
+    {
+      "term": "Authorization",
+      "description": "Der Prozess zur Bestimmung, ob ein Benutzer die Berechtigung hat, eine bestimmte Aktion auszuführen."
+    },
+    {
+      "term": "CA",
+      "description": "Zertifizierungsstelle. Eine vertrauenswürdige Instanz, die digitale Zertifikate zur Überprüfung von Identitäten im Internet ausstellt."
+    },
+    {
+      "term": "Assume Breach",
+      "description": "Eine Sicherheitsmentalität, die davon ausgeht, dass ein System bereits verletzt wurde, und stärkere Abwehrmaßnahmen und Überwachungen fördert."
+    },
+    {
+      "term": "Buffer Overflow",
+      "description": "Eine Schwachstelle, bei der ein Programm mehr Daten in einen Puffer schreibt, als es halten kann, was zu potenzieller Codeausführung oder Abstürzen führt."
+    },
+    {
+      "term": "AuthZ",
+      "description": "Autorisierung. Der Prozess der Gewährung oder Verweigerung des Zugriffs auf eine Ressource basierend auf den Berechtigungen des Benutzers."
+    },
+    {
+      "term": "CIA Triad",
+      "description": "Vertraulichkeit, Integrität und Verfügbarkeit. Die grundlegenden Prinzipien der Informationssicherheit."
+    },
+    {
+      "term": "CIS",
+      "description": "Center for Internet Security. Eine gemeinnützige Organisation, die Ressourcen für bewährte Praktiken in der IT-Sicherheit bereitstellt."
+    },
+    {
+      "term": "IaC",
+      "description": "Infrastructure as Code. Die Praxis, Computerinfrastruktur durch maschinenlesbare Konfigurationsdateien zu verwalten und bereitzustellen."
+    },
+    {
+      "term": "CMDB",
+      "description": "Konfigurationsmanagement-Datenbank. Ein Repository, das Informationen über IT-Ressourcen und deren Beziehungen speichert."
+    },
+    {
+      "term": "CSRF",
+      "description": "Cross-Site Request Forgery. Ein Angriff, bei dem ein Benutzer dazu verleitet wird, unerlaubte Befehle in einer Webanwendung auszuführen."
+    },
+    {
+      "term": "COTS",
+      "description": "Commercial Off-The-Shelf. Vorgefertigte Software- oder Hardwarelösungen, die gekauft werden können."
+    },
+    {
+      "term": "DDOS",
+      "description": "Distributed Denial of Service. Eine Art von Angriff, bei dem mehrere Systeme die Bandbreite oder Ressourcen eines Zielsystems überfluten."
+    },
+    {
+      "term": "Defense in Depth",
+      "description": "Eine Sicherheitsstrategie, die mehrere Verteidigungsschichten verwendet, um gegen verschiedene Angriffe zu schützen."
+    },
+    {
+      "term": "DOS",
+      "description": "Denial of Service. Ein Angriff, der darauf abzielt, einen Dienst durch Überwältigung mit Datenverkehr unzugänglich zu machen."
+    },
+    {
+      "term": "EFF",
+      "description": "Electronic Frontier Foundation. Eine gemeinnützige Organisation, die sich für die Verteidigung der Bürgerrechte in der digitalen Welt einsetzt."
+    },
+    {
+      "term": "Encoding",
+      "description": "Der Prozess der Umwandlung von Daten von einer Form in eine andere. Wird häufig für die Datenübertragung und -speicherung verwendet."
+    },
+    {
+      "term": "IaaS",
+      "description": "Infrastructure as a Service. Ein Cloud-Computing-Modell, das virtualisierte Computerressourcen über das Internet bereitstellt."
+    },
+    {
+      "term": "SaaS",
+      "description": "Software as a Service. Ein Cloud-Computing-Modell, bei dem Software über das Internet auf Abonnementbasis bereitgestellt wird."
+    },
+    {
+      "term": "HaaS",
+      "description": "Hardware as a Service. Ein Modell, bei dem Hardware als verwalteter Dienst bereitgestellt wird, der typischerweise auf Abonnementbasis bezahlt wird."
+    },
+    {
+      "term": "Immutable Infrastructure",
+      "description": "Ein Konzept, bei dem die Infrastruktur ersetzt und nicht verändert wird, um Konsistenz zu gewährleisten und Konfigurationsdrift zu reduzieren."
+    },
+    {
+      "term": "IPS/IDS",
+      "description": "Intrusion Prevention System / Intrusion Detection System. Systeme, die potenzielle Sicherheitsbedrohungen überwachen und darauf reagieren."
+    },
+
+    {
+      "term": "ASVS",
+      "description": "Application Security Verification Standard. Ein Rahmenwerk für Sicherheitsanforderungen für die Gestaltung, Entwicklung und Prüfung sicherer Webanwendungen."
+    },
+    {
+      "term": "SDLC",
+      "description": "Software Development Life Cycle. Der Prozess der Planung, Erstellung, Test und Bereitstellung von Software."
+    },
+    {
+      "term": "PASTA Threat Modeling",
+      "description": "Process for Attack Simulation and Threat Analysis. Eine Bedrohungsmodellierungsmethodik, die sich auf Risikoanalyse und -minderung konzentriert."
+    },
+    {
+      "term": "PII",
+      "description": "Personenbezogene Daten. Informationen, die zur Identifizierung einer Person verwendet werden können."
+    },
+   
+     {
+      "term": "SolarWinds",
+      "description": "Ein hochkarätiger Cyberangriff im Jahr 2020, bei dem Angreifer Schwachstellen in der IT-Management-Software von SolarWinds ausnutzten, um weit verbreitete Spionage durchzuführen."
+    },
+    {
+      "term": "log4Shell",
+      "description": "Eine kritische Schwachstelle in der weit verbreiteten log4j-Protokollierungsbibliothek für Java-Anwendungen, die die Ausführung von Remote-Code ermöglicht(e)."
+    },
+    {
+      "term": "xz-Attack",
+      "description": "Ein Begriff, der einen Angriffstyp beschreibt, der Komprimierungsalgorithmen ausnutzt, um Sicherheitskontrollen zu umgehen oder Angriffe durchzuführen."
+    },
+    {
+      "term": "SRE",
+      "description": "Site Reliability Engineering. Eine Disziplin, die Aspekte der Softwareentwicklung integriert und auf Infrastruktur- und Betriebsprobleme anwendet, um skalierbare und zuverlässige Systeme zu schaffen."
+    },
+    {
+      "term": "ACL",
+      "description": "Zugriffskontrollliste. Eine Liste von Berechtigungen, die einem Objekt zugeordnet sind und festlegen, welche Benutzer oder Systemprozesse auf dieses Objekt zugreifen dürfen und welche Vorgänge sie ausführen dürfen."
+    },
+    {
+      "term": "Firewall",
+      "description": "Ein Netzwerk-Sicherheitsgerät oder eine Software, die den ein- und ausgehenden Netzwerkverkehr anhand vorab festgelegter Sicherheitsregeln überwacht und kontrolliert."
+    },
+    {
+      "term": "OWASP ZAP",
+      "description": "Zed Attack Proxy. Ein Open-Source-Webanwendungssicherheitsscanner, der von OWASP verwaltet wird und zur Aufdeckung von Sicherheitslücken in Webanwendungen verwendet wird."
+    } ,
+    {
+      "term": "CWE",
+      "description": "Common Weakness Enumeration. Eine gemeinschaftlich entwickelte Liste häufiger Sicherheitslücken in Software und Hardware, die als Grundlage für die Identifizierung, Minderung und Vermeidung von Schwachstellen dient."
+    },
+    {
+      "term": "NIST Cybersecurity Framework",
+      "description": "Ein Satz von Richtlinien und bewährten Praktiken, der vom National Institute of Standards and Technology (NIST) entwickelt wurde, um Organisationen dabei zu helfen, ihre Cybersicherheitslage zu verbessern. Das Framework soll das Management und die Reduzierung von Cybersicherheitsrisiken durch fünf Kernfunktionen unterstützen: Identifizieren, Schützen, Erkennen, Reagieren und Wiederherstellen."
+    },
+    {
+      "term": "Security Posture",
+      "description": "Der allgemeine Sicherheitsstatus der Software, Netzwerke, Informationen und Systeme einer Organisation. Die Cybersicherheitslage umfasst die Fähigkeit der Organisation, Sicherheitsbedrohungen und -vorfälle zu identifizieren, abzuwehren und sich davon zu erholen."
+    },
+    {
+      "term": "Cyber Security Posture",
+      "description": "Der spezifische Aspekt der Sicherheitslage einer Organisation, der sich auf ihre Fähigkeit konzentriert, sich vor Cyberangriffen zu schützen, Cyberrisiken zu managen und auf Cybersicherheitsvorfälle zu reagieren."
+    },
+    {
+      "term": "Minimal Container Image",
+      "description": "Ein Container-Image, das nur die minimal benötigte Software enthält, um eine Anwendung auszuführen. Dadurch wird die Angriffsfläche minimiert und die Sicherheit verbessert, indem unnötige Bibliotheken und Abhängigkeiten entfernt werden."
+    },
+    {
+      "term": "Distroless Container Image",
+      "description": "Ein Container-Image, das nur die Anwendung und ihre Laufzeitabhängigkeiten enthält, ohne ein vollständiges Betriebssystem oder eine Shell. Distroless-Images werden verwendet, um Angriffsvektoren zu reduzieren und Sicherheitslücken zu minimieren."
+    },
+    {
+      "term": "RBAC",
+      "description": "Role-Based Access Control. Ein Sicherheitsmodell, bei dem der Zugriff auf der Rolle eines Benutzers innerhalb einer Organisation basiert."
+    },
+    {
+      "term": "SaC",
+      "description": "Security as Code. Die Praxis, Sicherheitsrichtlinien und -kontrollen mithilfe von Code zu automatisieren."
+    },
+    {
+      "term": "SAMM",
+      "description": "Software Assurance Maturity Model. Ein offenes Rahmenwerk, das Organisationen hilft, ihren sicheren Softwareentwicklungslebenszyklus zu bewerten und zu verbessern."
+    },
+    {
+      "term": "SLA",
+      "description": "Service Level Agreement. Ein Vertrag zwischen einem Dienstleister und einem Kunden, der die erwartete Servicequalität definiert."
+    },
+    {
+      "term": "SSRF",
+      "description": "Server-Side Request Forgery. Ein Angriff, bei dem ein Server dazu gebracht wird, unbeabsichtigte Anfragen zu stellen, die oft auf interne Dienste abzielen."
+    },
+    {
+      "term": "STRIDE Threat Modeling",
+      "description": "Eine Bedrohungsmodellierungsmethodik, die sechs Arten von Sicherheitsbedrohungen identifiziert: Spoofing, Manipulation, Nichtabstreitbarkeit, Informationsoffenlegung, Dienstverweigerung und Privilegieneskalation."
+    },
+    {
+      "term": "Tailgating",
+      "description": "Ein physischer Sicherheitsverstoß, bei dem eine unbefugte Person einer befugten Person in ein gesichertes Gebiet folgt."
+    },
+    {
+      "term": "Technical Debt",
+      "description": "Die Kosten, die entstehen, wenn eine schnelle Lösung gegenüber einer langfristigen bevorzugt wird, was zu zukünftigen Korrekturarbeiten führt."
+    },
+    {
+      "term": "UAT",
+      "description": "User Acceptance Testing. Der Prozess der Überprüfung, ob eine Lösung für den Benutzer funktioniert und die Geschäftsanforderungen erfüllt."
+    },
+    {
+      "term": "OWASP WSTG",
+      "description": "OWASP Web Security Testing Guide. Ein umfassender Leitfaden zum Testen der Sicherheit von Webanwendungen."
+    },
+    {
+      "term": "Security Champions",
+      "description": "Personen innerhalb von Entwicklungsteams, die sich für Sicherheitsbewusstsein und bewährte Sicherheitspraktiken einsetzen."
+    },
+    {
+      "term": "Zed Attack Proxy",
+      "description": "Ein von OWASP verwalteter Open-Source-Webanwendungssicherheitsscanner."
+    },
+    {
+      "term": "Cybersecurity Posture",
+      "description": "Der spezifische Aspekt der Sicherheitslage einer Organisation, der sich auf ihre Fähigkeit konzentriert, sich vor Cyberangriffen zu schützen, Cyberrisiken zu managen und auf Vorfälle zu reagieren."
+    },
+    {
+      "term": "K8s",
+      "description": "Kubernetes. Eine Open-Source-Plattform zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von Anwendungscontainern über Cluster von Hosts."
+    },
+    {
+      "term": "OCI",
+      "description": "Open Container Initiative. Ein Projekt der Linux Foundation, das offene Standards für Containerformate und -runtimes definiert. Das Ziel von OCI ist es, sicherzustellen, dass Container interoperabel und plattformübergreifend portierbar sind."
+    },
+    {
+      "term": "OCI Runtime",
+      "description": "Eine Spezifikation der Open Container Initiative für das Lebenszyklusmanagement von Containern. OCI-Runtimes befolgen diesen Standard, um die Portabilität und Kompatibilität von Containern sicherzustellen. Beispiele für OCI-konforme Runtimes sind runc, crun und Kata Containers."
+    },
+    {
+      "term": "Docker",
+      "description": "Eine Open-Source-Plattform zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von Anwendungen in leichtgewichtigen, portablen Containern. Docker verwendet die Containerisierung, um eine Anwendung mit allen ihren Abhängigkeiten zu verpacken, sodass sie in verschiedenen Umgebungen konsistent ausgeführt wird."
+    },
+    {
+      "term": "Docker Desktop",
+      "description": "Eine benutzerfreundliche Anwendung für Mac, Windows und Linux, die es Entwicklern ermöglicht, containerisierte Anwendungen auf ihrem lokalen Rechner zu erstellen, zu teilen und auszuführen. Docker Desktop bietet die Docker Engine, Docker CLI und andere Werkzeuge wie Kubernetes in einer integrierten Umgebung für die Container-Entwicklung."
+    },
+    {
+      "term": "Podman",
+      "description": "Eine Open-Source-Container-Engine, die es Benutzern ermöglicht, Container und Container-Images zu verwalten, ohne einen zentralen Daemon zu benötigen. Podman ist kompatibel mit OCI-konformen Containern und unterstützt das Ausführen von Containern ohne Root-Rechte, was es zu einer sichereren Alternative zu Docker macht. Es unterstützt auch das Management von Kubernetes-Pods."
+    },
+    {
+      "term": "DORA (DevOps Research and Assessment)",
+      "description": "DevOps Research and Assessment. Ein Forschungsprogramm und eine Organisation, die Hochleistungsteams und Organisationen im DevOps-Bereich untersucht und Erkenntnisse über die Leistung bei der Softwarebereitstellung, Organisationskultur und betriebliche Praktiken veröffentlicht. Die Forschung hat zur Entwicklung wichtiger DevOps-Metriken wie Bereitstellungshäufigkeit, Änderungsdurchlaufzeit, Zeit zur Wiederherstellung des Dienstes und Ausfallrate von Änderungen geführt."
+    },
+    {
+      "term": "DORA (Digital Operational Resilience Act)",
+      "description": "Ein von der Europäischen Union geschaffenes regulatorisches Rahmenwerk, das die betriebliche Widerstandsfähigkeit von Finanzunternehmen stärkt, um sicherzustellen, dass sie gegen alle Arten von Störungen und Bedrohungen im Bereich der Informations- und Kommunikationstechnologie (IKT) gewappnet sind. DORA gilt für Banken, Versicherungsunternehmen und andere Finanzinstitute, die in der EU tätig sind."
+    },
+    {
+      "term": "UEBA",
+      "description": "User and Entity Behavior Analytics. Eine Cybersicherheitslösung, die maschinelles Lernen und erweiterte Analysen verwendet, um Anomalien im Verhalten von Benutzern und Entitäten zu erkennen, oft um Insider-Bedrohungen, kompromittierte Konten oder andere böswillige Aktivitäten zu identifizieren, die von traditionellen Sicherheitstools übersehen werden könnten."
+    },
+    {
+      "term": "IoC",
+      "description": "Indicators of Compromise. Forensische Daten wie Protokolleinträge oder Dateisignaturen, die auf einen möglichen Sicherheitsverstoß oder bösartige Aktivitäten in einem Netzwerk oder System hinweisen."
+    },
+    {
+      "term": "TI",
+      "description": "Bedrohungsinformationen (Threat Intelligence). Informationen und Analysen über potenzielle Bedrohungen, einschließlich Angreifern, deren Methoden und Motivationen, um Sicherheitsentscheidungen und die Reaktion auf Vorfälle zu verbessern."
+    },
+    {
+      "term": "STIX",
+      "description": "Structured Threat Information eXpression. Eine standardisierte Sprache zur gemeinsamen Nutzung von Bedrohungsinformationen zwischen Organisationen und Systemen auf konsistente und strukturierte Weise."
+    },
+    {
+      "term": "TAXII",
+      "description": "Trusted Automated eXchange of Indicator Information. Ein Protokoll zum Transport und zur gemeinsamen Nutzung von Bedrohungsinformationen auf standardisierte Weise, das häufig zusammen mit STIX für den Austausch von Bedrohungsinformationen verwendet wird."
+    },
+    {
+      "term": "Severity",
+      "description": "Der Schweregrad, den eine Schwachstelle oder ein Sicherheitsproblem auf das System hat. Schweregrade werden häufig in Niedrig, Mittel, Hoch oder Kritisch kategorisiert, je nach potenziellem Schaden oder Risiko, das durch das Problem verursacht wird."
+    },
+    {
+      "term": "Weakness",
+      "description": "Ein Fehler oder eine Schwachstelle in Software oder Hardware, die zu einer Sicherheitslücke führen kann. Schwächen werden häufig in der Common Weakness Enumeration (CWE) kategorisiert, die von MITRE gepflegt wird."
+    },
+    {
+      "term": "Vulnerability",
+      "description": "Eine Schwachstelle in einem System, die von einem Angreifer ausgenutzt werden kann, um unbefugten Zugang zu erhalten oder böswillige Aktionen durchzuführen. Schwachstellen werden häufig in Datenbanken wie CVE und NVD gelistet."
+    },
+    {
+      "term": "CISA",
+      "description": "Cybersecurity and Infrastructure Security Agency. Eine US-Regierungsbehörde, die für die Verbesserung der Cybersicherheit, den Schutz kritischer Infrastrukturen und die Abwehr von Cyber-Bedrohungen verantwortlich ist."
+    },
+    {
+      "term": "CISO",
+      "description": "Chief Information Security Officer. Ein leitender Manager, der für die Überwachung der Informationssicherheitsstrategie eines Unternehmens und den Schutz seiner Informationsressourcen verantwortlich ist."
+    },
+    {
+      "term": "NVD",
+      "description": "National Vulnerability Database. Ein staatliches Repository der USA für standardisierte Daten zur Verwaltung von Schwachstellen, einschließlich softwarebezogener Sicherheitslücken, Fehlkonfigurationen und Einflussmetriken."
+    },
+    {
+      "term": "MITRE",
+      "description": "Eine gemeinnützige Organisation, die sicherheitsbezogene Projekte wie die Common Vulnerabilities and Exposures (CVE)-Datenbank, das MITRE ATT&CK-Framework und die Common Weakness Enumeration (CWE) verwaltet."
+    },
+    {
+      "term": "NIST",
+      "description": "National Institute of Standards and Technology. Eine US-Bundesbehörde, die Standards, Richtlinien und bewährte Praktiken in Bereichen wie Cybersicherheit entwickelt und fördert, einschließlich des bekannten NIST-Cybersicherheitsframeworks."
+    }
+]

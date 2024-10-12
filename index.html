@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevSecOps Glossary</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./glossary.css" rel="stylesheet">
+</head>
+<body>
+  <div id="glossary-app" class="container mt-5"></div>
+
+  <!-- React and ReactDOM via CDN -->
+  <script src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+
+  <!-- Babel for JSX transformation -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+  
+  <!-- Main React App -->
+  <script type="text/babel">
+    function GlossaryApp() {
+      const [glossaryData, setGlossaryData] = React.useState([]);
+      const [language, setLanguage] = React.useState('EN'); // Track current language
+      const [searchTerm, setSearchTerm] = React.useState("");
+
+      // Function to load glossary data based on selected language
+      const loadGlossaryData = (language) => {
+        const file = language === 'EN' 
+          ? 'devSecOpsGlossaryData_EN.json' 
+          : 'devSecOpsGlossaryData_DE.json';
+        
+        fetch(file)
+          .then(response => response.json())
+          .then(data => {
+            setGlossaryData(data); // Store glossary data
+            setLanguage(language); // Update the current language
+          })
+          .catch(error => console.error("Error fetching the glossary data:", error));
+      };
+
+      // Initial load for English glossary by default
+      React.useEffect(() => {
+        loadGlossaryData('EN');
+      }, []);
+
+      // Function to clear the search term
+      const clearSearch = () => {
+        setSearchTerm(""); // Reset search term
+      };
+
+      // Get the total number of glossary entries
+      const glossaryCount = glossaryData.length;
+
+
+//TEMP
+      const termCount = {};  // Object to store occurrences of each term
+      const duplicates = []; // Array to store duplicates
+
+      glossaryData.forEach(item => {
+        const term = item.term.toLowerCase(); // Use lowercase to make the check case-insensitive
+        if (termCount[term]) {
+          termCount[term] += 1; // Increment count if term already exists
+          duplicates.push(term); // Add to duplicates if it's more than once
+        } else {
+          termCount[term] = 1;  // Initialize the count for the term
+        }
+      });
+      console.log("termCount:");
+      console.log(termCount);
+      console.log("duplicates:");
+      console.log(duplicates);
+
+//END TEMP
+
+
+
+
+
+
+      // List of alphabet letters to be used as links
+      const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+      
+      // Filtering and sorting terms based on the search input
+      const searchTermLowerCase = searchTerm.trim().toLowerCase();
+      const filteredTerms = glossaryData
+        .filter(item => item.term.toLowerCase().includes(searchTermLowerCase))
+        .sort((a, b) => a.term.localeCompare(b.term));
+
+
+        // TEMP LOGGING
+        console.log("Search Term:", searchTerm);
+        //console.log("Filtered Terms:", filteredTerms);
+        //console.log("Glossary Data:", glossaryData);
+        // Create an array of terms from the filtered entries
+        console.log(filteredTerms.map(item => item.term));
+
+      // Group terms alphabetically
+      const groupedTerms = filteredTerms.reduce((acc, item) => {
+        const firstLetter = item.term[0].toUpperCase();
+        if (!acc[firstLetter]) {
+          acc[firstLetter] = [];
+        }
+        acc[firstLetter].push(item);
+        return acc;
+      }, {});
+      
+      
+      // TEMP LOGGING
+      console.log("Grouped Terms: ");
+      console.log(groupedTerms);
+      
+
+      // Text for "entries" based on the selected language
+      const entryLabel = language === 'EN' ? 'entries' : 'Einträge';
+
+      return (
+        <div>
+          <div className="d-flex justify-content-between align-items-center mb-4">
+            <h1>DevSecOps Glossary</h1>
+
+            {/* Language Buttons */}
+            <div className="language-links">
+              <button 
+                onClick={() => loadGlossaryData('EN')} 
+                className={`btn ${language === 'EN' ? 'btn-secondary' : 'btn-primary'}`} 
+                disabled={language === 'EN'}
+              >
+                EN
+              </button>
+              <button 
+                onClick={() => loadGlossaryData('DE')} 
+                className={`btn ${language === 'DE' ? 'btn-secondary' : 'btn-primary'}`} 
+                disabled={language === 'DE'}
+              >
+                DE
+              </button>
+            </div>
+          </div>
+
+          {/* Search Input with Clear Icon */}
+          <div className="search-container mb-4">
+            <input
+              type="text"
+              className="form-control search-input"
+              placeholder="Search terms..."
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
+            {searchTerm && (
+              <span className="clear-icon" onClick={clearSearch}>&times;</span>
+            )}
+          </div>
+
+          {/* Alphabet Links and Glossary Count */}
+          <div className="d-flex align-items-center mb-3">
+            <div>
+              {alphabet.map(letter => (
+                <a
+                  key={letter}
+                  href={groupedTerms[letter] ? `#${letter}` : "#"}
+                  className={`btn me-1 mb-2 ${groupedTerms[letter] ? 'btn-outline-primary' : 'btn-outline-secondary disabled'}`}
+                  style={{ width: '35px', textAlign: 'center', pointerEvents: groupedTerms[letter] ? 'auto' : 'none' }}
+                >
+                  {letter}
+                </a>
+              ))}
+            </div>
+
+            {/* Glossary Count Indicator (Grey Badge) */}
+            <div className="glossary-count">
+              <span className="badge badge-grey">{glossaryCount} {entryLabel}</span>
+            </div>
+          </div>
+          
+          {/* Glossary Table */}
+          <table className="table table-striped">
+            <tbody>
+              {Object.keys(groupedTerms).sort().map(letter => (
+                <React.Fragment key={letter}>
+                  {/* Display the first letter as a header row */}
+                  <tr id={letter}>
+                    <th colSpan="2" className="bg-light">{letter}</th>
+                  </tr>
+                  {groupedTerms[letter].map((termItem, index) => (
+                    <tr key={termItem.term}>
+                      <td>{termItem.term}</td>
+                      <td>
+                        {termItem.description}
+                      </td>
+                    </tr>
+                  ))}
+                </React.Fragment>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      );
+    }
+
+    ReactDOM.render(<GlossaryApp />, document.getElementById('glossary-app'));
+  </script>
+</body>
+</html>

@@ -1,0 +1,458 @@
+[
+  {
+    "description": "Confidentiality, Integrity, and Availability. A fundamental model in information security that outlines three main objectives: protecting data from unauthorized access, ensuring data is not tampered with, and ensuring that data is available when needed.",
+    "term": "CIA"
+  },
+  {
+    "description": "Continuous Integration and Continuous Delivery. A set of processes in DevOps for automating the building, testing, and deployment of applications, ensuring faster, more reliable software delivery.",
+    "term": "CI/CD"
+  },
+  {
+    "description": "A cultural and engineering practice that integrates security practices into DevOps, ensuring security is a shared responsibility and incorporated throughout the development lifecycle.",
+    "term": "DevSecOps"
+  },
+  {
+    "description": "The process of converting data into a coded format to prevent unauthorized access. Common encryption methods include AES, RSA, and SHA.",
+    "term": "Encryption"
+  },
+  {
+    "description": "A testing technique where random or semi-random data is inputted into a program to uncover vulnerabilities and unexpected behavior.",
+    "term": "Fuzz Testing"
+  },
+  {
+    "description": "Interactive Application Security Testing. A security testing technique that combines aspects of both SAST and DAST by interacting with the application as it runs, detecting vulnerabilities inside the running code.",
+    "term": "IAST"
+  },
+  {
+    "description": "Identity and Access Management. A set of policies, tools, and systems for managing user identities and regulating user access to systems and data.",
+    "term": "IAM"
+  },
+  {
+    "description": "An open-source platform for managing containerized workloads and services, facilitating the automation of deployment, scaling, and management of applications.",
+    "term": "Kubernetes"
+  },
+  {
+    "description": "Open Web Application Security Project. A nonprofit foundation that works to improve the security of software, and is known for the OWASP Top 10, which lists the most critical web application security risks.",
+    "term": "OWASP"
+  },
+  {
+    "description": "Runtime Application Self-Protection. A security technology that is integrated into an application and can detect and block security threats in real-time as the application runs.",
+    "term": "RASP"
+  },
+  {
+    "description": "Static Application Security Testing. A method of testing an application's source code or binaries for vulnerabilities without executing the program.",
+    "term": "SAST"
+  },
+  {
+    "description": "Security Information and Event Management. A system that aggregates and analyzes security-related data from across an organization's network, providing insights into security threats.",
+    "term": "SIEM"
+  },
+  {
+    "description": "Security Operations Center. A centralized unit that deals with security issues on an organizational and technical level, responsible for monitoring, analyzing, and responding to security incidents.",
+    "term": "SOC"
+  },
+  {
+    "description": "A type of attack where an attacker can execute arbitrary SQL code on a database by injecting malicious input through an application.",
+    "term": "SQL Injection"
+  },
+  {
+    "description": "Secure Shell. A protocol used for securely connecting to remote systems and executing commands over an encrypted connection.",
+    "term": "SSH"
+  },
+  {
+    "description": "Transport Layer Security. A cryptographic protocol designed to provide secure communication over a computer network.",
+    "term": "TLS"
+  },
+  {
+    "description": "Web Application Firewall. A security system that monitors and controls incoming and outgoing traffic to and from web applications to block malicious traffic.",
+    "term": "WAF"
+  },
+  {
+    "description": "Cross-Site Scripting. A vulnerability that allows an attacker to inject malicious scripts into web pages viewed by other users.",
+    "term": "XSS"
+  },
+  {
+    "description": "A security model that assumes no network, system, or individual should be trusted by default, and enforces strict access controls at all times.",
+    "term": "Zero Trust"
+  },
+  {
+    "description": "Dynamic Application Security Testing. A process of analyzing a running application for vulnerabilities that could be exploited in real-time.",
+    "term": "DAST"
+  },
+  {
+    "description": "The process of converting data into a fixed-size string of characters, which is typically a digest that represents the data.",
+    "term": "Hashing"
+  },
+  {
+    "description": "Software Composition Analysis. The process of identifying and managing open source components in software.",
+    "term": "SCA"
+  },
+  {
+    "description": "Software Bill of Materials. A list of components used in software development, often focusing on licensing and security.",
+    "term": "SBoM"
+  },
+  {
+    "description": "Penetration Testing. A simulated attack on a system to find security weaknesses.",
+    "term": "PenTest"
+  },
+  {
+    "description": "Discretionary Access Control. An access control method where the data owner decides who has access to specific resources.",
+    "term": "DAC"
+  },
+  {
+    "description": "Mandatory Access Control. A security model where access to resources is regulated by a central authority based on policies.",
+    "term": "MAC"
+  },
+  {
+    "description": "Policy-Based Access Control. A security model where access decisions are made based on policies.",
+    "term": "PBAC"
+  },
+  {
+    "description": "The process of identifying potential threats and vulnerabilities in a system and designing countermeasures.",
+    "term": "Threat Modeling"
+  },
+  {
+    "description": "A practice where a group simulates real-world attacks on a system to identify vulnerabilities.",
+    "term": "Red Teaming"
+  },
+  {
+    "description": "Application Security. The practice of protecting applications from vulnerabilities and security threats.",
+    "term": "AppSec"
+  },
+  {
+    "description": "Cybersecurity. The practice of protecting systems, networks, and programs from digital attacks.",
+    "term": "CyberSec"
+  },
+  {
+    "description": "Common Vulnerabilities and Exposures. A list of publicly disclosed information security vulnerabilities.",
+    "term": "CVE"
+  },
+  {
+    "description": "Multi-Factor Authentication. A security process that requires multiple forms of verification to access a system.",
+    "term": "MFA"
+  },
+  {
+    "description": "The process of verifying the identity of a user or system.",
+    "term": "Authentication"
+  },
+  {
+    "description": "The process of determining if a user has permission to perform a specific action.",
+    "term": "Authorization"
+  },
+  {
+    "description": "Certificate Authority. A trusted entity that issues digital certificates to verify identities on the internet.",
+    "term": "CA"
+  },
+  {
+    "description": "A security mindset that assumes a system has already been breached, encouraging stronger defenses and monitoring.",
+    "term": "Assume Breach"
+  },
+  {
+    "description": "A vulnerability where a program writes more data to a buffer than it can hold, leading to potential code execution or crashes.",
+    "term": "Buffer Overflow"
+  },
+  {
+    "description": "Authorization. The process of granting or denying access to a resource based on the user's permissions.",
+    "term": "AuthZ"
+  },
+  {
+    "description": "Confidentiality, Integrity, and Availability. The fundamental principles of information security.",
+    "term": "CIA Triad"
+  },
+  {
+    "description": "Center for Internet Security. A nonprofit organization that provides resources for best practices in IT security.",
+    "term": "CIS"
+  },
+  {
+    "description": "Infrastructure as Code. The practice of managing and provisioning computing infrastructure through machine-readable configuration files.",
+    "term": "IaC"
+  },
+  {
+    "description": "Configuration Management Database. A repository that stores information about IT assets and their relationships.",
+    "term": "CMDB"
+  },
+  {
+    "description": "Cross-Site Request Forgery. An attack where a user is tricked into executing unauthorized commands on a web application.",
+    "term": "CSRF"
+  },
+  {
+    "description": "Commercial Off-The-Shelf. Pre-packaged software or hardware solutions available for purchase.",
+    "term": "COTS"
+  },
+  {
+    "description": "Distributed Denial of Service. A type of attack where multiple systems flood the bandwidth or resources of a targeted system.",
+    "term": "DDOS"
+  },
+  {
+    "description": "A security strategy that employs multiple layers of defense to protect against a variety of attacks.",
+    "term": "Defense in Depth"
+  },
+  {
+    "description": "Denial of Service. An attack that aims to make a service unavailable by overwhelming it with traffic.",
+    "term": "DOS"
+  },
+  {
+    "description": "Electronic Frontier Foundation. A nonprofit organization that defends civil liberties in the digital world.",
+    "term": "EFF"
+  },
+  {
+    "description": "The process of converting data from one form to another. Commonly used for data transmission and storage.",
+    "term": "Encoding"
+  },
+  {
+    "description": "Infrastructure as a Service. A cloud computing model that provides virtualized computing resources over the internet.",
+    "term": "IaaS"
+  },
+  {
+    "description": "Software as a Service. A cloud computing model where software is delivered over the internet on a subscription basis.",
+    "term": "SaaS"
+  },
+  {
+    "description": "Hardware as a Service. A model where hardware is provided as a managed service, typically paid for on a subscription basis.",
+    "term": "HaaS"
+  },
+  {
+    "description": "A concept where infrastructure is replaced rather than modified, ensuring consistency and reducing configuration drift.",
+    "term": "Immutable Infrastructure"
+  },
+  {
+    "description": "Intrusion Prevention System / Intrusion Detection System. Systems that monitor and respond to potential security threats.",
+    "term": "IPS/IDS"
+  },
+  {
+    "description": "A security principle that restricts users' access rights to the minimum required to perform their job functions.",
+    "term": "Least Privilege"
+  },
+  {
+    "description": "Application Security Verification Standard. A framework of security requirements for designing, developing, and testing secure web applications.",
+    "term": "ASVS"
+  },
+  {
+    "description": "Software Development Life Cycle. The process of planning, creating, testing, and deploying software.",
+    "term": "SDLC"
+  },
+  {
+    "description": "Process for Attack Simulation and Threat Analysis. A threat modeling methodology focused on risk analysis and mitigation.",
+    "term": "PASTA Threat Modeling"
+  },
+  {
+    "description": "Personally Identifiable Information. Any information that can be used to identify an individual.",
+    "term": "PII"
+  },
+  {
+    "description": "Role-Based Access Control. A security model where access is based on a user's role within an organization.",
+    "term": "RBAC"
+  },
+  {
+    "description": "Security as Code. The practice of automating security policies and controls using code.",
+    "term": "SaC"
+  },
+  {
+    "description": "Software Assurance Maturity Model. An open framework to help organizations evaluate and improve their secure software development lifecycle.",
+    "term": "SAMM"
+  },
+  {
+    "description": "Service Level Agreement. A contract between a service provider and a customer that defines the level of service expected.",
+    "term": "SLA"
+  },
+  {
+    "description": "Server-Side Request Forgery. An attack where a server is tricked into making unintended requests, often used to access internal services.",
+    "term": "SSRF"
+  },
+  {
+    "description": "A threat modeling methodology that identifies six types of security threats: Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, and Elevation of Privilege.",
+    "term": "STRIDE Threat Modeling"
+  },
+  {
+    "description": "A physical security breach where an unauthorized person follows an authorized individual into a restricted area.",
+    "term": "Tailgating"
+  },
+  {
+    "description": "The cost of choosing a quick solution over a long-term one in software development, leading to future work needed to fix it.",
+    "term": "Technical Debt"
+  },
+  {
+    "description": "User Acceptance Testing. The process of verifying that a solution works for the user and meets business requirements.",
+    "term": "UAT"
+  },
+  {
+    "description": "OWASP Web Security Testing Guide. A comprehensive guide for testing the security of web applications.",
+    "term": "OWASP WSTG"
+  },
+  {
+    "description": "Individuals within development teams who advocate for and prioritize security best practices.",
+    "term": "Security Champions"
+  },
+  {
+    "description": "An open-source web application security scanner maintained by OWASP.",
+    "term": "Zed Attack Proxy"
+  },
+  {
+    "description": "A set of practices that combines software development (Dev) and IT operations (Ops) to shorten the development lifecycle and deliver high-quality software continuously.",
+    "term": "DevOps"
+  },
+  {
+    "description": "Site Reliability Engineering. A discipline that incorporates aspects of software engineering and applies them to infrastructure and operations problems to create scalable and reliable systems.",
+    "term": "SRE"
+  },
+  {
+    "description": "A high-profile cyberattack in 2020 where attackers exploited vulnerabilities in SolarWinds' IT management software to conduct widespread espionage.",
+    "term": "SolarWinds"
+  },
+  {
+    "description": "A critical vulnerability found in the widely used log4j logging library for Java applications, allowing remote code execution.",
+    "term": "log4Shell"
+  },
+  {
+    "description": "A term used to describe a type of attack that leverages compression algorithms to bypass security controls or execute attacks.",
+    "term": "xz-Attack"
+  },
+  {
+    "description": "Access Control List. A list of permissions attached to an object that specifies which users or system processes can access that object and what operations they can perform.",
+    "term": "ACL"
+  },
+  {
+    "description": "A network security device or software that monitors and controls incoming and outgoing network traffic based on predetermined security rules.",
+    "term": "Firewall"
+  },
+  {
+    "description": "Zed Attack Proxy. An open-source web application security scanner maintained by OWASP, used for finding security vulnerabilities in web applications.",
+    "term": "OWASP ZAP"
+  },
+  {
+    "description": "Common Weakness Enumeration. A community-developed list of common software and hardware security weaknesses, designed to serve as a baseline for weakness identification, mitigation, and prevention efforts.",
+    "term": "CWE"
+  },
+  {
+    "description": "The overall security status of an organization's software, networks, information, and systems. Security posture includes the organization's ability to identify, defend, and recover from security threats and incidents.",
+    "term": "Security Posture"
+  },
+  {
+    "description": "A set of guidelines and best practices created by the National Institute of Standards and Technology (NIST) to help organizations improve their cybersecurity posture. The framework is designed to manage and reduce cybersecurity risk through five core functions: Identify, Protect, Detect, Respond, and Recover.",
+    "term": "NIST Cybersecurity Framework"
+  },
+  {
+    "description": "The specific aspect of an organization’s security posture that focuses on its ability to protect against cyberattacks, manage cyber risks, and respond to cybersecurity incidents.",
+    "term": "Cybersecurity Posture"
+  },
+  {
+    "description": "A container image that includes only the bare minimum software needed to run an application, minimizing its attack surface and improving security by reducing unnecessary libraries and dependencies.",
+    "term": "Minimal Container Image"
+  },
+  {
+    "description": "A container image that contains only the application and its runtime dependencies, without including a full operating system or shell. Distroless images are used to reduce attack vectors and minimize vulnerabilities.",
+    "term": "Distroless Container Image"
+  },
+  {
+    "term": "Pen Testing",
+    "description": "Penetration Testing. A method for assessing the security of an application or network by simulating an attack to identify vulnerabilities."
+  },
+  {
+    "term": "DNS Spoofing",
+    "description": "An attack where an attacker corrupts the DNS resolver process to redirect users to malicious websites instead of the intended ones."
+  },
+  {
+    "term": "MITM",
+    "description": "Man-In-The-Middle. A type of attack where an attacker secretly intercepts and potentially alters the communication between two parties who believe they are directly communicating."
+  },
+  {
+    "term": "RCE",
+    "description": "Remote Code Execution. A security vulnerability that allows an attacker to execute arbitrary code on a remote system or application."
+  },
+  {
+    "term": "APT",
+    "description": "Advanced Persistent Threat. A sophisticated, long-term attack usually conducted by nation-states or highly organized groups to infiltrate and spy on or sabotage a system or organization."
+  },
+  {
+    "term": "Breach",
+    "description": "An incident where data is disclosed to unauthorized parties, typically by exploiting a vulnerability in a system."
+  },
+  {
+    "term": "Cyber Security Posture",
+    "description": "The specific aspect of an organization’s security stance that focuses on its ability to protect against cyberattacks, manage cyber risks, and respond to cybersecurity incidents."
+  },
+  {
+    "term": "K8s",
+    "description": "Kubernetes. An open-source platform for automating deployment, scaling, and operations of application containers across clusters of hosts."
+  },
+  {
+    "term": "OCI",
+    "description": "Open Container Initiative. A Linux Foundation project that establishes open standards for container formats and runtimes. The goal of OCI is to ensure that containers are interoperable and portable across different platforms."
+  },
+  {
+    "term": "OCI Runtime",
+    "description": "A specification defined by the Open Container Initiative for the lifecycle management of containers. OCI runtimes follow this standard to ensure container portability and compatibility. Examples of OCI-compliant runtimes include runc, crun, and Kata Containers."
+  },
+  {
+    "term": "Docker",
+    "description": "An open-source platform designed to automate the deployment, scaling, and management of applications in lightweight, portable containers. Docker uses containerization to package an application with all its dependencies, ensuring it runs consistently across different environments."
+  },
+  {
+    "term": "Docker Desktop",
+    "description": "An easy-to-use application for Mac, Windows, and Linux that enables developers to build, share, and run containerized applications on their local machine. Docker Desktop provides the Docker Engine, Docker CLI, and other tools, like Kubernetes, in an integrated environment for container development."
+  },
+  {
+    "term": "Podman",
+    "description": "An open-source container engine that enables users to manage containers and container images without requiring a central daemon. Podman is compatible with OCI-compliant containers and supports running containers as rootless, making it a more secure alternative to Docker. It also supports Kubernetes Pod management."
+  },
+  {
+    "term": "DORA (DevOps Research and Assessment)",
+    "description": "DevOps Research and Assessment. A research program and organization that studies high-performing DevOps teams and organizations, publishing findings on software delivery performance, organizational culture, and operational practices. Their research has led to the development of key DevOps metrics like deployment frequency, lead time for changes, time to restore service, and change failure rate."
+  },
+  {
+    "term": "DORA (Digital Operational Resilience Act)",
+    "description": "A regulatory framework established by the European Union to enhance the operational resilience of financial entities, ensuring they can withstand, respond to, and recover from all types of information and communication technology (ICT)-related disruptions and cyber threats. DORA applies to banks, insurance companies, and other financial institutions operating in the EU."
+  },
+  {
+    "term": "UEBA",
+    "description": "User and Entity Behavior Analytics. A cybersecurity solution that uses machine learning and advanced analytics to detect anomalies in user and entity behavior, often to identify insider threats, compromised accounts, or other malicious activities that traditional security tools might miss."
+  },
+  {
+    "term": "IoC",
+    "description": "Indicators of Compromise. Pieces of forensic data, such as log entries or file signatures, that indicate a potential breach or malicious activity within a network or system."
+  },
+  {
+    "term": "TI",
+    "description": "Threat Intelligence. Information and analysis about potential threats, including attackers, their methods, and their motivations, used to enhance security decision-making and incident response."
+  },
+  {
+    "term": "STIX",
+    "description": "Structured Threat Information eXpression. A standardized language used for sharing threat intelligence information between organizations and systems in a consistent and structured way."
+  },
+  {
+    "term": "TAXII",
+    "description": "Trusted Automated eXchange of Indicator Information. A protocol used to transport and share cyber threat information in a standardized way, often used in conjunction with STIX for threat intelligence sharing."
+  },
+  {
+    "term": "NVD",
+    "description": "National Vulnerability Database. A U.S. government repository of standards-based vulnerability management data, including security-related software flaws, misconfigurations, and impact metrics."
+  },
+  {
+    "term": "MITRE",
+    "description": "A non-profit organization that maintains security-related projects such as the Common Vulnerabilities and Exposures (CVE) database, MITRE ATT&CK framework, and the CWE (Common Weakness Enumeration)."
+  },
+  {
+    "description": "National Institute of Standards and Technology. A U.S. federal agency that develops and promotes standards, guidelines, and best practices in areas such as cybersecurity, including the well-known NIST Cybersecurity Framework.",
+    "term": "NIST"
+  },
+  {
+    "term": "Severity",
+    "description": "The level of impact a vulnerability or security issue has on the system. Severity levels are often categorized as Low, Medium, High, or Critical, depending on the potential damage or risk posed by the issue."
+  },
+  {
+    "term": "Weakness",
+    "description": "A flaw or deficiency in software or hardware that could lead to a vulnerability. Weaknesses are commonly categorized in the Common Weakness Enumeration (CWE) maintained by MITRE."
+  },
+  {
+    "term": "Vulnerability",
+    "description": "A weakness in a system that can be exploited by a threat actor to gain unauthorized access or perform malicious actions. Vulnerabilities are often listed in databases like CVE and NVD."
+  },
+  {
+    "term": "CISA",
+    "description": "Cybersecurity and Infrastructure Security Agency. A U.S. government agency responsible for enhancing cybersecurity, securing critical infrastructure, and defending against cyber threats."
+  },
+  {
+    "term": "CISO",
+    "description": "Chief Information Security Officer. A senior-level executive responsible for overseeing an organization’s information security strategy and ensuring the protection of its information assets."
+  }
+]
