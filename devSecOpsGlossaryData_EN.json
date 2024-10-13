@@ -454,5 +454,9 @@
   {
     "term": "CISO",
     "description": "Chief Information Security Officer. A senior-level executive responsible for overseeing an organization’s information security strategy and ensuring the protection of its information assets."
+  },
+  {
+    "term": "Security Flaw",
+    "description": "A defect or weakness in a system's design, implementation, or configuration that can be exploited by a threat actor to perform unauthorized actions, such as gaining access, stealing data, or disrupting services. Security flaws are often the root cause of vulnerabilities in systems."
   }
 ]

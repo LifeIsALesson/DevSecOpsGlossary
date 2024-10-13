@@ -457,5 +457,10 @@
     {
       "term": "NIST",
       "description": "National Institute of Standards and Technology. Eine US-Bundesbehörde, die Standards, Richtlinien und bewährte Praktiken in Bereichen wie Cybersicherheit entwickelt und fördert, einschließlich des bekannten NIST-Cybersicherheitsframeworks."
+    },
+    {
+      "term": "Security Flaw",
+      "description": "Ein Defekt oder eine Schwachstelle im Design, in der Implementierung oder in der Konfiguration eines Systems, die von einem Angreifer ausgenutzt werden kann, um unbefugte Aktionen wie den Zugang, den Diebstahl von Daten oder die Störung von Diensten durchzuführen. Sicherheitslücken sind oft die Ursache für Schwachstellen in Systemen."
     }
+
 ]
