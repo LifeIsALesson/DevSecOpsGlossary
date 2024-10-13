@@ -458,5 +458,9 @@
   {
     "term": "Security Flaw",
     "description": "A defect or weakness in a system's design, implementation, or configuration that can be exploited by a threat actor to perform unauthorized actions, such as gaining access, stealing data, or disrupting services. Security flaws are often the root cause of vulnerabilities in systems."
+  },
+  {
+    "term": "CRLF Injection",
+    "description": "Carriage Return Line Feed Injection. A web security vulnerability where an attacker injects a CRLF (\\r\\n) sequence into user input fields, which can lead to HTTP response splitting, log poisoning, or other malicious behaviors by manipulating how web servers or applications interpret the input."
   }
 ]
